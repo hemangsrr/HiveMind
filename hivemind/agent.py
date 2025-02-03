@@ -1,6 +1,6 @@
 from typing import List, Dict, Any, Optional
-from tool import Tool
-from llm import LLM
+from .tool import Tool
+from .llm import LLM
 
 
 class Agent:

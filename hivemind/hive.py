@@ -1,6 +1,6 @@
 from typing import Dict, Any, List, Optional
-from agent import Agent
-from tool import Tool
+from .agent import Agent
+from .tool import Tool
 
 
 class HiveMind:
