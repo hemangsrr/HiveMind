@@ -15,7 +15,7 @@ HiveMind is a modular system for managing multiple AI agents, tools, and LLM mod
 
 You can install HiveMind via pip:
 ```python
-pip install hivemind
+pip install git+https://github.com/hemangsrr/hivemind.git
 ```
 
 ## Usage
