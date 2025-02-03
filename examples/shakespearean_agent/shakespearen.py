@@ -23,5 +23,5 @@ if __name__ == "__main__":
             break
 
         # Execute the task with the Shakespearean agent
-        response = hivemind.execute_task("shakespearean_bard", {"user_input": user_input})
+        response = hivemind.run_agent("shakespearean_bard", {"user_input": user_input})
         print(f"\nBard: {response}")

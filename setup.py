@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="hivemind",  # Name of the package
-    version="0.1.0",  # Package version
+    version="0.1.1",  # Package version
     author="Hemang Mohan",
     author_email="hemangshornur@gmail.com",
     description="A modular AI system with agents, tools, and LLM integration",

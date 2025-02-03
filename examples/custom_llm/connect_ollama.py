@@ -60,5 +60,5 @@ if __name__ == "__main__":
             break
 
         # Execute the task with the poem generator agent
-        response = hivemind.execute_task("poem_generator", {"user_input": user_input})
+        response = hivemind.run_agent("poem_generator", {"user_input": user_input})
         print(f"\nPoem:\n{response}")
