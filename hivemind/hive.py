@@ -35,8 +35,8 @@ class HiveMind:
         name: str,
         backstory: str,
         instructions: str,
+        model_name: str,
         tool_names: Optional[List[str]] = None,
-        model_name: str = "openai-gpt-4o-mini",
         max_retries: int = 3,
     ):
         """

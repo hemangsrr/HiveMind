@@ -13,8 +13,8 @@ class Agent:
         name: str,
         backstory: str,
         instructions: str,
+        model_name: str,
         tools: Optional[List[Tool]] = None,
-        model_name: str = "openai-gpt-4o-mini",
         max_retries: int = 3,
         verbose: bool = False,
     ):
@@ -26,7 +26,7 @@ class Agent:
             backstory (str): A description of the agent's history/personality.
             instructions (str): Core instructions that define its role.
             tools (List[Tool], optional): Tools the agent can use. Defaults to None.
-            model_name (str): The LLM model name to use. Defaults to "openai-gpt-4o".
+            model_name (str): The LLM model name to use.
             max_retries (int): Number of retry attempts if a response is invalid. Defaults to 3.
             verbose (bool): Whether to print debug information. Defaults to False.
         """
